@@ -1,0 +1,47 @@
+/*
+COLORS
+
+Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+
+*/
+* {
+  font-size: 62.5%; }
+
+header, footer {
+  height: 5rem; }
+
+body {
+  width: 70%;
+  margin: 0 auto; }
+
+.box {
+  font-size: 1.5rem;
+  color: white;
+  background-color: orangered; }
+
+.app {
+  display: grid;
+  margin: 2rem auto;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem; }
+
+.sidebar {
+  grid-row: 1 / span 3;
+  grid-column: 4 / 4; }
+
+.main-content {
+  grid-row: 2 / -1;
+  grid-column: 1 / span 3; }

@@ -1,0 +1,5 @@
+# Project exclude paths
+/Natours_m/after-S05/node_modules/
+/Nexter_m/react-ts-version/node_modules/
+/Nexter_m/starter/node_modules/
+/Trillo/starter/node_modules/

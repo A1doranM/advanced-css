@@ -1,0 +1,71 @@
+{
+  "name": "Nexter",
+  "version": "1.0.0",
+  "description": "Nexter webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "dev_server": "webpack-dev-server --mode development --open",
+    "dev_build": "webpack --mode development",
+    "watch:sass": "node-sass src/sass/style.scss src/css/style.css -w",
+    "compile:sass": "node-sass src/sass/style.scss css/style.comp.css"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-proposal-class-properties": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "@babel/preset-typescript": "latest",
+    "autoprefixer": "latest",
+    "babel-loader": "latest",
+    "clean-webpack-plugin": "latest",
+    "concat": "latest",
+    "copy-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "csv-loader": "latest",
+    "file-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "less": "latest",
+    "less-loader": "latest",
+    "mini-css-extract-plugin": "latest",
+    "node-sass": "latest",
+    "npm-run-all": "latest",
+    "postcss-cli": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-bundle-analyzer": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "xml-loader": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest"
+  },
+  "dependencies": {
+    "@babel/polyfill": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "normalize.css": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "advanced-css",
+  "version": "1.0.0",
+  "description": "This repo contains starter files and the finished project files for all the projects contained in the course.",
+  "main": "index.js",
+  "scripts": {
+    "compile_scss": "node-sass Natours_m/starter/css/style.scss Natours_m/starter/css/style.css"
+  },
+  "author": "medmmax@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
