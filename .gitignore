@@ -1,5 +1,5 @@
 # Project exclude paths
-/Natours_m/after-S05/node_modules/
-/Nexter_m/react-ts-version/node_modules/
-/Nexter_m/starter/node_modules/
-/Trillo/starter/node_modules/
+/Natours_m_Master_Float/after-S05/node_modules/
+/Nexter_m_Master_Grid/react-ts-version/node_modules/
+/Nexter_m_Master_Grid/starter/node_modules/
+/Trillo_m_Master_Flexbox/starter/node_modules/

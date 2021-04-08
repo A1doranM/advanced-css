@@ -4,7 +4,7 @@
   "description": "This repo contains starter files and the finished project files for all the projects contained in the course.",
   "main": "index.js",
   "scripts": {
-    "compile_scss": "node-sass Natours_m/starter/css/style.scss Natours_m/starter/css/style.css"
+    "compile_scss": "node-sass Natours_m_Master_Float/starter/css/style.scss Natours_m_Master_Float/starter/css/style.css"
   },
   "author": "medmmax@gmail.com",
   "license": "ISC",
