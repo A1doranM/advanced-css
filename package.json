@@ -9,9 +9,9 @@
   "author": "medmmax@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "latest"
   },
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "latest"
   }
 }
